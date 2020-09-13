@@ -5,7 +5,6 @@
 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8649674
 
 ##  The BibTeX files are as follows,
-1- TCSVT19 --->
 @article{peng2019active,
   title={Active Transfer Learning},
   author={Peng, Zhihao and Zhang, Wei and Han, Na and Fang, Xiaozhao and Kang, Peipei and Teng, Luyao},
@@ -18,5 +17,4 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8649674
 }
 
 ## Contact
-# zhihapeng3-c@my.cityu.edu.hk; 
-# zhpengcn@126.com
+zhihapeng3-c@my.cityu.edu.hk; zhpengcn@126.com
