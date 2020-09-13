@@ -1,4 +1,4 @@
-# Active-Transfer-Learning. Peng, et al. TCSVT19
+# Active-Transfer-Learning
 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8649674
 
 ##  The BibTeX files are as follows,
