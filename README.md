@@ -2,7 +2,7 @@
 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8649674
 
 ##  The BibTeX files are as follows,
-**Active Transfer Learning. Peng, et al. TCSVT19**
+### Active Transfer Learning. Peng, et al. TCSVT19
 @article{peng2019active,
   title={Active Transfer Learning},
   author={Peng, Zhihao and Zhang, Wei and Han, Na and Fang, Xiaozhao and Kang, Peipei and Teng, Luyao},
