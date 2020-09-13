@@ -1,5 +1,6 @@
 # Active-Transfer-Learning
 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8649674
+**We have added comments in the code, the specific details can correspond to the explanation in the paper.**
 
 ##  The BibTeX files are as follows,
 ### Active Transfer Learning. Peng, et al. TCSVT19
