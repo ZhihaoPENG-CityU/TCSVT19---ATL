@@ -21,4 +21,4 @@ zhihapeng3-c@my.cityu.edu.hk; zhpengcn@126.com
 
 
 ### Note
-Note that the classification results are obtained in MATLAB R2013a. Since the latest MATLAB version has abandoned the function 'knnclassify', it is necessary to replace the used KNN function when using the latest version of the MATLAB file. The experimental results will be different.
+Note that the classification results are obtained in MATLAB R2013a. Since the latest MATLAB version has abandoned the function 'knnclassify', it is necessary to replace the used KNN function when using the latest version of the MATLAB file. The experimental results may be different.
