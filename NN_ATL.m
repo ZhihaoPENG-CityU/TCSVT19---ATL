@@ -23,8 +23,7 @@
   volume={},
   number={},
   pages={1-1},
-  note={doi:{\color{blue}
-\href{https://doi.org/10.1109/LSP.2020.3025061}{10.1109/LSP.2020.3025061}}
+  note={doi:{\color{blue}\href{https://doi.org/10.1109/LSP.2020.3025061}{10.1109/LSP.2020.3025061}}
   }
 %}
 %% Reference
