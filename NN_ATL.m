@@ -1,5 +1,5 @@
 %% We appreciate it if you use this matlab code and cite our papers.
-%% Contact: zhihapeng3-c@my.cityu.edu.hk; zhpengcn@126.com
+%% Contact: zhihapeng3-c@my.cityu.edu.hk; zhpengcn@126.com;
 %% The BibTeX files are as follows,
 %{
 1- TCSVT19 --->
@@ -15,7 +15,17 @@
 }
 
 2- SPL20  --->
-
+@ARTICLE{9210817,
+  author={Z. {Peng} and Y. {Jia} and J. {Hou}},
+  journal={IEEE Signal Processing Letters}, 
+  title={Non-Negative Transfer Learning with Consistent Inter-domain Distribution}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},
+  note={doi:{\color{blue}
+\href{https://doi.org/10.1109/LSP.2020.3025061}{10.1109/LSP.2020.3025061}}
+  }
 %}
 %% Reference
 % [1] Peng, et al. "Active Transfer Learning.". in TCSVT'19.
@@ -43,7 +53,7 @@ pct1 = 0.8;
 [ KNN_XS_S,KNN_XS_L ] =  pct_random(XS_S',XS_L, pct1 );
 acc_orignal =  KNN(KNN_XS_S,KNN_XS_L,XT_S',XT_L,1) * 100;
 
-% Class Diversity Matrix K (see `Section ¢ò.C. The Model of ATL' in [1])
+% Class Diversity Matrix K (see `Section Â¢Ã².C. The Model of ATL' in [1])
 Koptions = [];
 Koptions.NeighborMode = 'Supervised';
 Koptions.WeightMode = 'Binary';
@@ -74,7 +84,7 @@ for i = 1:length(R1)
         % Iteration Updating via the Algorithm 1 in [1]
         [ A, P, obj] = RMMD( XS_S,XT_S,K,W,Part );
         
-        % Experimental strategy (see Section ¢õ in [1])
+        % Experimental strategy (see Section Â¢Ãµ in [1])
         [ XS1, YS1 ] = pct_ATL( XS_S,XS_L,A,npct1,d,num );
 
         acc1( (i-1)*length(R2)+j ) = KNN((P'*XS1)',YS1',(P'*XT_S)',XT_L,1) * 100;
