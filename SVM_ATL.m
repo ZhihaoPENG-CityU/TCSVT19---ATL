@@ -1,7 +1,7 @@
 %% We appreciate it if you use this matlab code and cite our papers.
 % The BibTeX files are as follows,
 %{
-1- TCSVT19
+1- TCSVT19 --->
 @article{peng2019active,
   title={Active Transfer Learning},
   author={Peng, Zhihao and Zhang, Wei and Han, Na and Fang, Xiaozhao and Kang, Peipei and Teng, Luyao},
@@ -12,7 +12,18 @@
   year={2019},
   publisher={IEEE}
 }
-2- SPL20
+
+2- SPL20  --->
+@ARTICLE{9210817,
+  author={Z. {Peng} and Y. {Jia} and J. {Hou}},
+  journal={IEEE Signal Processing Letters}, 
+  title={Non-Negative Transfer Learning with Consistent Inter-domain Distribution}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},
+  note={doi:{\color{blue}\href{https://doi.org/10.1109/LSP.2020.3025061}{10.1109/LSP.2020.3025061}}
+  }
 %}
 %% Reference
 % [1] Peng, et al. "Active Transfer Learning.". in TCSVT'19.
@@ -37,7 +48,7 @@ pct = 0.8;
 R1 = 0.01 ; % [ 0.0001, 0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000 ]
 R2 = 0.01 ;
 
-% Class Diversity Matrix K (see `Section ¢ò.C. The Model of ATL' in [1])
+% Class Diversity Matrix K (see `Section Â¢Ã².C. The Model of ATL' in [1])
 Koptions = [];
 Koptions.NeighborMode = 'Supervised';
 Koptions.WeightMode = 'Binary';
