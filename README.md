@@ -1,4 +1,6 @@
-# Active-Transfer-Learning
+# Active Transfer Learning
+
+IEEE link: https://ieeexplore.ieee.org/iel7/76/4358651/08649674.pdf
 
 We have added comments in the code, the specific details can correspond to the explanation in the paper.
 
